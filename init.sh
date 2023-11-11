@@ -5,5 +5,6 @@ wgcf generate
 sed -i '4s/.*//' "wgcf-profile.conf"
 cat wgcf-profile.conf
 wg-quick up wgcf-profile.conf
+wg show
 wg
 ls
