@@ -1,5 +1,5 @@
 cp wgcf /usr/bin/
-chmod +rwx wgcf
+chmod +rwx /usr/bin/wgcf
 wgcf register
 wgcf generate
 ls
