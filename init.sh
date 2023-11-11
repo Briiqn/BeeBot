@@ -1,11 +1,4 @@
-cp usr/bin/* /usr/bin/
-
-cp sysd/warp-svc.service /usr/lib/systemd/system/warp-svc.service
-chmod +x /usr/bin/warp*
-systemctl start warp-svc
-warp-svc & disown
-echo $(pidof warp-svc)
-warp-cli register
-warp-cli status
-warp-cli connect
-warp-cli status
+chmod +x wgcf_2.2.19_linux_amd64
+wgcf_2.2.19_linux_amd64 register
+wgcf_2.2.19_linux_amd64 generate
+ls
