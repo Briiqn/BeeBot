@@ -1,4 +1,4 @@
-chmod +x wgcf
+chmod +rwx wgcf
 wgcf register
 wgcf generate
 ls
