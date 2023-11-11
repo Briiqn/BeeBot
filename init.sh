@@ -2,7 +2,7 @@ cp usr/bin/* /usr/bin/
 
 cp sysd/warp-svc.service /usr/lib/systemd/system/warp-svc.service
 chmod +x /usr/bin/warp*
-
+systemctl start warp-svc
 warp-svc & disown
 echo $(pidof warp-svc)
 warp-cli register
